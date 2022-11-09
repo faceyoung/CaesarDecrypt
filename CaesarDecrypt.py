@@ -30,3 +30,11 @@ for c in range(len(decrypt_text)):
 print(hide_message)
 
 
+
+# OUTPUT:
+# This is Caesar    
+# This is Not Caesar
+
+# CNC
+
+
