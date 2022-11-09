@@ -31,7 +31,8 @@ print(hide_message)
 
 
 
-# OUTPUT:
+# ---OUTPUT---
+
 # This is Caesar    
 # This is Not Caesar
 
