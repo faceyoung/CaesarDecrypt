@@ -24,9 +24,9 @@ print(decrypt(3, encrypt_text))
 
 decrypt_text = decrypt(3, encrypt_text)
 hide_message = ""
-for c in range(len(decrypt_text)):
-    if decrypt_text[c].isupper() and decrypt_text[c-1] != "\n":
-        hide_message = hide_message + decrypt_text[c]
+for i in range(len(decrypt_text)):
+    if decrypt_text[i].isupper() and decrypt_text[i-1] != "\n":
+        hide_message = hide_message + decrypt_text[i]
 print(hide_message)
 
 
